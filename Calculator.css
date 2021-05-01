@@ -1,0 +1,53 @@
+
+#calc{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+table{
+    border: 1px solid black;
+    border-spacing: 20px;
+    padding: 3px;
+    border-radius: 12px;
+    background-color: rgb(73, 99, 134);
+}
+td{
+    width: 52px;
+    height: 52px;
+}
+input {
+    width: 272px;
+    height: 52px;
+    border-radius: 7px;
+    background-color: rgb(229, 252, 203);
+    font-size: 35px;
+    text-align: end;
+    color: rgb(11, 77, 26);
+    border-style: none;
+    font-family: calculator_font;
+}
+button{
+    width: 52px;
+    height: 52px;
+    font-size: 25px;
+    border-radius: 7px;
+    background-color: rgb(185, 235, 250);
+    color: black;
+}
+#plus{
+    height: 128px;
+    background-color: rgb(245, 130, 130);
+}
+#ans{
+    width: 128px;
+    background-color: rgb(245, 130, 130);
+}
+#delete{
+    font-size: 17px;
+}
+
+@font-face {
+    font-family: calculator_font;
+    src: url(my-fav.ttf);
+}
+
